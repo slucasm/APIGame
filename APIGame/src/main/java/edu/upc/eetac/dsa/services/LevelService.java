@@ -69,18 +69,18 @@ public class LevelService {
             return Response.status(201).entity(entity).build();
     }
 
-    /*@POST
+    @POST
     @ApiOperation(value = "create a new Level", notes = "asdasd")
     @ApiResponses(value = {
             @ApiResponse(code = 201, message = "Successful", response=Level.class)
     })
-    @Path("/addLevel/{idLevel},{rows},{columns},{matrix}")
+    @Path("/addLevel/")
     @Consumes(MediaType.APPLICATION_JSON)
-    public Response newLevel(@PathParam("idLevel") int idLevel,@PathParam("rows") int rows,@PathParam("columns") int columns,@PathParam("matrix") int[][] matrix) {
-        Level level = new Level(idLevel,rows,columns,matrix);
+    public Response newLevel(Level level){
+
         this.mg.addLevel(level);
         return Response.status(201).entity(level).build();
-    }*/
+    }
 
     /*@POST
     @ApiOperation(value = "create a new Level", notes = "asdasd")

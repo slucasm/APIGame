@@ -8,7 +8,7 @@ public class User {
     private String password;
     private Boolean isAdmin;
     public int money;
-    public HashMap<String,Game> gamesMap;
+    //public HashMap<String,Game> gamesMap;
 
     public User (){
 
@@ -20,7 +20,7 @@ public class User {
         this.password = password;
         this.isAdmin = false;
         this.money = 0;
-        this.gamesMap = new HashMap<String, Game>();
+        //this.gamesMap = new HashMap<String, Game>();
     }
 
     public String getIdUser() {
@@ -63,11 +63,11 @@ public class User {
         this.money = money;
     }
 
-    public HashMap<String, Game> getGamesMap() {
+    /*public HashMap<String, Game> getGamesMap() {
         return gamesMap;
     }
 
     public void setGamesMap(HashMap<String, Game> gamesMap) {
         this.gamesMap = gamesMap;
-    }
+    }*/
 }
