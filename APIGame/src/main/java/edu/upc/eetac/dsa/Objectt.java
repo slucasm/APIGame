@@ -1,14 +1,14 @@
 package edu.upc.eetac.dsa;
 
-public class Object {
+public class Objectt {
 
     public String idObject;
     public String objectName;
 
-    public Object() {
+    public Objectt() {
     }
 
-    public Object(String idObject, String objectName) {
+    public Objectt(String idObject, String objectName) {
         this.idObject = idObject;
         this.objectName = objectName;
     }

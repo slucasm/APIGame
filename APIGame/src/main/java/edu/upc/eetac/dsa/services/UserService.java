@@ -1,10 +1,8 @@
 package edu.upc.eetac.dsa.services;
 
 
-import edu.upc.eetac.dsa.Level;
-import edu.upc.eetac.dsa.MyGame;
-import edu.upc.eetac.dsa.MyGameImpl;
-import edu.upc.eetac.dsa.User;
+
+import edu.upc.eetac.dsa.*;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;

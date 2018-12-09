@@ -8,11 +8,11 @@ public interface MyGame {
 
     void addLevel(Level level);
 
-    void addObject(Object object);
+    void addObject(Objectt object);
 
-    Object getObject(String idObject);
+    Objectt getObject(String idObject);
 
-    List<Object> getAllObjects();
+    List<Objectt> getAllObjects();
 
     int addUser(User user);
 

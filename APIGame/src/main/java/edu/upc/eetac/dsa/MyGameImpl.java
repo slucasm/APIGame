@@ -10,7 +10,7 @@ public class MyGameImpl implements MyGame {
     private Level[] levels = new Level[3];
     private int numLevels = 0;
 
-    private List<Object> objectList = new LinkedList<>();
+    private List<Objectt> objectList = new LinkedList<>();
 
     private List<User> userList = new LinkedList<>();
 
@@ -39,13 +39,13 @@ public class MyGameImpl implements MyGame {
         numLevels ++;
     }
 
-    public void addObject(Object object) {
+    public void addObject(Objectt object) {
         objectList.add(object);
     }
 
-    public Object getObject(String idObject) {
-        Object obj = new Object();
-        for (Object object: objectList)
+    public Objectt getObject(String idObject) {
+        Objectt obj = new Objectt();
+        for (Objectt object: objectList)
         {
             if (object.idObject.equals(idObject))
             {
@@ -56,7 +56,7 @@ public class MyGameImpl implements MyGame {
         return obj;
     }
 
-    public List<Object> getAllObjects() {
+    public List<Objectt> getAllObjects() {
         return objectList;
     }
 

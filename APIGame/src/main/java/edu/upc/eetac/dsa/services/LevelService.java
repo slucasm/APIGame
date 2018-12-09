@@ -1,4 +1,4 @@
-package edu.upc.eetac.dsa.services;
+/*package edu.upc.eetac.dsa.services;
 
 import edu.upc.eetac.dsa.*;
 import io.swagger.annotations.Api;
@@ -92,7 +92,8 @@ public class LevelService {
     public Response newLevel(@PathParam("level")  Level level) {
         this.mg.addLevel(level);
         return Response.status(201).entity(level).build();
-    }*/
+    }
 
 
 }
+*/
